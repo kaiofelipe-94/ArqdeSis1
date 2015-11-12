@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Guia de veiculos</title>
+<link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+	<h2>Página de Seleção de Veículos</h2>
+	<form method="post" action="selecao.json">
+		<p>Selecione a Cidade</p>
+		<fieldset>
+			<div>
+				<label>Cidade:</label> <select name="cidade" size="1">
+					<option value=""></option>
+					<option value="São Paulo">São Paulo</option>
+					<option value="Guarulhos">Guarulhos</option>
+					<option value="Rio de Janeiro">Rio de Janeiro</option>
+				</select>
+			</div>
+		</fieldset>
+		<div>
+			<input type="submit" value="Enviar">
+		</div>
+	</form>
+</body>
+</html>
